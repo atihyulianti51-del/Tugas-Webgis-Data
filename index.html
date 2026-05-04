@@ -45,7 +45,7 @@
             attribution: '© OpenStreetMap contributors'
         }).addTo(map);
 
-        fetch('data/Data_Kota_Istanbul_3.geojson')
+        fetch('Data_Kota_Istanbul_3.geojson')
             .then(response => response.json())
             .then(data => {
                 L.geoJSON(data, {
